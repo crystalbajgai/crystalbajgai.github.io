@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Hotel</title>
+</head>
+
+<body style="font-family:verdana">
+    <style>
+        li {
+
+            display: inline-block;
+            padding: 40px;
+            overflow: hidden;
+            text-align: left;
+            font-size: 25px;
+        }
+
+        ul {
+
+            text-align: left;
+            margin-left: 200px;
+        }
+
+        img {
+            position: absolute
+        }
+    </style>
+    <a href="index.html"><img src="hv.png" width="200"></a>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+            <li><a href="profile.html" style="text-decoration: none;">Profile</a></li>
+            <li><a href="gallery.html" style="text-decoration: none;">Gallery</a></li>
+            <li><a href="form.html" style="text-decoration: none;">Order Online</a></li>
+            <li><a href="about.html " style="text-decoration: none;">About Us</a></li>
+        </ul>
+    </nav>
+    <Center>
+        <form action="https://formspree.io/f/mgedbwpa" method="post">
+            <fieldset
+                style="margin-left:450px; margin-right:450px; border-width: 5px; border-color: black; background-color:aliceblue;">
+                <legend align="center">Book Online</legend>
+                <label>Name:</label>
+                <input type="text" name="name" required> <Br> <Br>
+                <label>Email:</label>
+                <input type="email" name="email" required> <Br> <Br>
+                <label>Phone:</label>
+                <input type="number" name="phone" required> <Br> <Br>
+                <label>Address:</label>
+                <input type="text" name="address" required> <Br> <Br>
+                <label>City:</label>
+                <input type="text" name="city" required> <Br> <Br>
+                <label>State:</label>
+                <input type="text" name="state" required> <Br> <Br>
+                <label>Zip:</label>
+                <input type="number" name="zip" required> <Br> <Br>
+                <label>Room Type:</label>
+                <select name="roomtype" required>
+                    <option value="">Select Room Type</option>
+                    <option value="Single">Single</option>
+                    <option value="Double">Double</option>
+                    <option value="Queen">Queen</option>
+                    <option value="King">King</option>
+                </select> <Br> <Br>
+                <label>Number of Rooms:</label>
+                <input type="number" name="numrooms" required> <Br> <Br>
+                <label>Check In Date:</label>
+                <input type="date" name="checkin" required> <Br> <Br>
+                <label>Check Out Date:</label>
+                <input type="date" name="checkout" required> <Br> <Br>
+                <label>Number of Nights:</label>
+                <input type="number" name="numnights" required> <Br> <Br>
+                <label>Number of Adults:</label>
+                <input type="number" name="numadults" required> <Br> <Br>
+                <label>Number of Children:</label>
+                <input type="number" name="numchildren" required> <Br> <Br>
+                <input type="submit" value="Submit"> &nbsp; &nbsp; <input type="reset" value="Reset">
+            </fieldset>
+    </Center>
+    </form>
+
+
+</body>
+
+</html>
