@@ -49,15 +49,13 @@
                 <label>Email:</label>
                 <input type="email" name="email" required> <Br> <Br>
                 <label>Phone:</label>
-                <input type="number" name="phone" required> <Br> <Br>
+                <input type="number" name="phnum" min="1" oninput="validity.valid||(value='');"required> <Br> <Br>
                 <label>Address:</label>
                 <input type="text" name="address" required> <Br> <Br>
                 <label>City:</label>
                 <input type="text" name="city" required> <Br> <Br>
                 <label>State:</label>
                 <input type="text" name="state" required> <Br> <Br>
-                <label>Zip:</label>
-                <input type="number" name="zip" required> <Br> <Br>
                 <label>Room Type:</label>
                 <select name="roomtype" required>
                     <option value="">Select Room Type</option>
@@ -67,17 +65,17 @@
                     <option value="King">King</option>
                 </select> <Br> <Br>
                 <label>Number of Rooms:</label>
-                <input type="number" name="numrooms" required> <Br> <Br>
+                <input type="number" name="numroom" min="1" oninput="validity.valid||(value='');"required> <Br> <Br>
                 <label>Check In Date:</label>
                 <input type="date" name="checkin" required> <Br> <Br>
                 <label>Check Out Date:</label>
                 <input type="date" name="checkout" required> <Br> <Br>
                 <label>Number of Nights:</label>
-                <input type="number" name="numnights" required> <Br> <Br>
+                <input type="number" name="test_name" min="1" oninput="validity.valid||(value='');"required> <Br> <Br>
                 <label>Number of Adults:</label>
-                <input type="number" name="numadults" required> <Br> <Br>
+                <input type="number" name="test_name" min="1" oninput="validity.valid||(value='');" required> <Br> <Br>
                 <label>Number of Children:</label>
-                <input type="number" name="numchildren" required> <Br> <Br>
+                <input type="number" name="test_name" min="1"  oninput="validity.valid||(value='');" required> <Br> <Br>
                 <input type="submit" value="Submit"> &nbsp; &nbsp; <input type="reset" value="Reset">
             </fieldset>
     </Center>
