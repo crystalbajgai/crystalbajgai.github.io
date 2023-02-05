@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qbasic - Uppercase and Lowercase Letter Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+        }
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+        p {
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        code {
+            background-color: whitesmoke;
+            padding: 2px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Qbasic - Uppercase and Lowercase Letter Counter</h1>
+    <p>
+        <code>
+            CLS<br>
+            INPUT "Enter a word: ", word$<br>
+            UPPER = 0<br>
+            LOWER = 0<br>
+            FOR i = 1 TO LEN(word$)<br>
+            IF UCASE$(MID$(word$, i, 1)) = MID$(word$, i, 1) THEN UPPER = UPPER + 1<br>
+            IF LCASE$(MID$(word$, i, 1)) = MID$(word$, i, 1) THEN LOWER = LOWER + 1<br>
+            NEXT i<br>
+            PRINT "Uppercase letters: "; UPPER<br>
+            PRINT "Lowercase letters: "; LOWER<br>
+        </code>
+    </p>
+    <h1>Explanation</h1>
+    <p>
+        The CLS statement clears the screen. <br>
+        The INPUT statement prompts the user to enter a word and stores it in the variable word$. <br>
+        The variables UPPER and LOWER are initialized to 0. These variables will store the count of uppercase and lowercase letters, respectively. <br>
+        The FOR loop iterates over each character of the word. <br>
+        The UCASE$ and LCASE$ functions are used to convert a character to uppercase and lowercase, respectively. <br>
+        The MID$ function is used to extract a single character from the word. <br>
+        If the character is equal to its uppercase version, then the value of UPPER is incremented. <br>
+        If the character is equal to its lowercase version, then the value of LOWER is incremented. <br>
+        After the loop, the final count of uppercase and lowercase letters is displayed using the PRINT statement.
+    </p>
+</body>
+
+</html>
