@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "crystal.is-a.dev",
-  "Id": "fe9b1730-c7fa-4356-bded-bd17d5a4beca"
-}
