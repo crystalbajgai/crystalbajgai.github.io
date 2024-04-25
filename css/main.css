@@ -660,13 +660,15 @@ video {
 }
 
 .text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.953rem;
 }
 
 .text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 2.441rem;
+}
+
+.text-sz {
+  font-size: 1.698rem;
 }
 
 .font-bold {
@@ -703,13 +705,11 @@ video {
   }
 
   .smd\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 2.441rem;
   }
 
   .smd\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+    font-size: 3.052rem;
   }
 }
 
@@ -721,12 +721,6 @@ video {
   }
 
   .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+    font-size: 3.052rem;
   }
 }
