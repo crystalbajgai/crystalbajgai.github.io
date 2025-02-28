@@ -1,5 +1,5 @@
 # crystalbajgai.github.io
-Portfolio site.
+Redirects https://crystal.is-a.dev/
 
 
 
